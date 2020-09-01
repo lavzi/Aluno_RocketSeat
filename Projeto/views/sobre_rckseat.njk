@@ -1,0 +1,27 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Rocketseat</title>
+{% endblock %}
+
+{% block content %}     
+
+    <div id="wrapper" class="sobre">
+        <img src="{{ data_rckseat.img_url }}" alt="imagem da {{ data_rckseat.name }}">
+        <h1>{{ data_rckseat.name }}</h1>
+        <h2>{{ data_rckseat.description }}</h2>
+        <strong>{{ data_rckseat.tecnologias_title }}</strong>
+        <ul>
+            {% for item in data_rckseat.tecnologias %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="links" id="footer-links">
+        {% for item in data_rckseat.links %}
+            <a href="{{ item.link_url }}" target="_blank">{{ item.name }}</a>
+        {% endfor %}
+    </div>
+
+{% endblock %}

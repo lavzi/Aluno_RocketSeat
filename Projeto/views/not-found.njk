@@ -1,0 +1,15 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Error 404</title>
+{% endblock %}
+
+{# Irá sobrepor o header em "layout.njk". #}
+{% block header %}
+    <div class="not-found">
+        <strong>PAGE NOT FOUND <span>--> ERROR 404 <--</span></strong>
+        <div>
+            <strong>GO TO THE <a class="homepage_link" href="/">homepage</a></strong>
+        </div>
+    </div>
+{% endblock %}
