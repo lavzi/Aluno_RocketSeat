@@ -7,6 +7,8 @@
 *HTML5, CSS3, JAVASCRIPT, NODE, Framework Express e Templating Engine Nunjucks
 
 ### Execução do projeto:
+- É necessário que tenha o <a href="https://nodejs.org/en/" target="_blank">Node</a>  instalado na máquina
+
  1. Clonar o repositório no computador, após isso navegar até o diretório **"/Projeto"** e executar o comando "<strong>npm install</strong>" para instalar todas as dependências necessárias para rodar o projeto. :+1:
  2. Após a instalação das dependências, exercutar no terminal o comando **"npm start"** para iniciar o servidor. Feito isso, através do campo de url do navegador digitar **"localhost:5000"** e pronto, agora é só navegar pelo site. :+1:
 
