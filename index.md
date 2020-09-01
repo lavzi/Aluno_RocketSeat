@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# :sparkles: Primeiro projeto como aluno da <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a> 
 
-You can use the [editor on GitHub](https://github.com/lavzi/Aluno_RocketSeat/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Sobre
+É um projeto bem simples de uma página pessoal do aluno, uma da empresa, e também páginas referente a aulas e cursos disponibilizados pela rocketseat. Apesar de simples, aborda conceitos importantes de programação Web, tanto da parte do front-end quanto back-end.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Tecnologias utilizadas
+*HTML5, CSS3, JAVASCRIPT, NODE, Framework Express e Templating Engine Nunjucks
 
-### Markdown
+### Execução do projeto:
+ 1. Clonar o repositório no computador, após isso navegar até o diretório **"/Projeto"** e executar o comando "<strong>npm install</strong>" para instalar todas as dependências necessárias para rodar o projeto. :+1:
+ 2. Após a instalação das dependências, exercutar no terminal o comando **"npm start"** para iniciar o servidor. Feito isso, através do campo de url do navegador digitar **"localhost:5000"** e pronto, agora é só navegar pelo site. :+1:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lavzi/Aluno_RocketSeat/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### :art: :coffee: Alguns screenshots das telas:
+![Image](Projeto/screenshots/aluno.PNG)
+![Image](Projeto/screenshots/aulas.PNG)
+![Image](Projeto/screenshots/cursos.PNG)
+![Image](Projeto/screenshots/empresa.PNG)
